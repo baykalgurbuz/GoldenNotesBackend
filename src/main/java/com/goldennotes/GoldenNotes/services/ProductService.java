@@ -10,11 +10,11 @@ public class ProductService {
     @Autowired
     private ProductRepository productRepository;
 
-    public Product saveSale(Product product) {
+    public Product saveProduct(Product product) {
         return productRepository.save(product);
     }
 
-    public List<Product> getAllSales() {
+    public List<Product> getAllProduct() {
         return productRepository.findAll();
     }
 }
