@@ -1,9 +1,7 @@
 package com.goldennotes.GoldenNotes.services;
 
 import com.goldennotes.GoldenNotes.entities.Product;
-import com.goldennotes.GoldenNotes.entities.Sale;
 import com.goldennotes.GoldenNotes.repositories.ProductRepository;
-import com.goldennotes.GoldenNotes.repositories.SaleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
